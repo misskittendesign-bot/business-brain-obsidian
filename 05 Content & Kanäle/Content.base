@@ -1,0 +1,27 @@
+filters:
+  and:
+    - file.inFolder("05 Content & Kanäle")
+    - 'file.ext == "md"'
+    - file.hasTag("content-stueck")
+views:
+  - type: table
+    name: Nach Kanal
+    groupBy:
+      property: kanal
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - datum
+    sort:
+      - property: datum
+        direction: DESC
+  - type: table
+    name: In Arbeit
+    filters:
+      and:
+        - 'status != "veröffentlicht"'
+    order:
+      - file.name
+      - kanal
+      - status

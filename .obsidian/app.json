@@ -1,0 +1,10 @@
+{
+  "attachmentFolderPath": "Anhänge",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 Inbox",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "10 Prozesse & Vorlagen/Vorlagen/"
+  ]
+}

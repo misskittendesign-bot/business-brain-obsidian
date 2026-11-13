@@ -1,0 +1,26 @@
+filters:
+  and:
+    - file.inFolder("03 Angebote & Produkte")
+    - 'file.ext == "md"'
+    - file.hasTag("produkt")
+views:
+  - type: table
+    name: Alle Produkte
+    order:
+      - file.name
+      - typ
+      - preis
+      - status
+    sort:
+      - property: typ
+        direction: ASC
+  - type: table
+    name: Nach Art
+    groupBy:
+      property: typ
+      direction: ASC
+    order:
+      - file.name
+      - preis
+      - status
+      - versprechen

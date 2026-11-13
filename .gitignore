@@ -1,0 +1,9 @@
+# Bedienzustand von Obsidian, ändert sich bei jedem Klick
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.trash/
+
+# Betriebssysteme
+.DS_Store
+Thumbs.db
+desktop.ini

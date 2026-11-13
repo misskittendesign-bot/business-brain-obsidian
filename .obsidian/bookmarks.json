@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1,
+      "path": "Start.md",
+      "title": "Start"
+    },
+    {
+      "type": "file",
+      "ctime": 2,
+      "path": "00 Inbox/Schnelle Notizen.md",
+      "title": "Schnelle Notizen"
+    },
+    {
+      "type": "file",
+      "ctime": 3,
+      "path": "09 Projekte/Nächste Schritte.md",
+      "title": "Nächste Schritte"
+    },
+    {
+      "type": "file",
+      "ctime": 4,
+      "path": "01 Marke & Ich/Stil & Tonalität.md",
+      "title": "Stil & Tonalität"
+    }
+  ]
+}

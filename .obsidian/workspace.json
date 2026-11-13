@@ -1,0 +1,30 @@
+{
+  "main": {
+    "id": "m",
+    "type": "split",
+    "children": [
+      {
+        "id": "t",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "l",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Start.md",
+                "mode": "preview"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "active": "l",
+  "lastOpenFiles": [
+    "Start.md"
+  ]
+}

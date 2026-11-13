@@ -1,0 +1,37 @@
+filters:
+  and:
+    - file.inFolder("09 Projekte")
+    - 'file.ext == "md"'
+    - file.hasTag("projekt")
+views:
+  - type: table
+    name: Aktuell
+    filters:
+      and:
+        - file.inFolder("09 Projekte/Aktuell")
+    order:
+      - file.name
+      - ziel
+      - schritt
+      - termin
+    sort:
+      - property: termin
+        direction: ASC
+  - type: table
+    name: Geplant
+    filters:
+      and:
+        - file.inFolder("09 Projekte/Geplant")
+    order:
+      - file.name
+      - ziel
+      - termin
+  - type: table
+    name: Alle Projekte
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - ziel
+      - termin
